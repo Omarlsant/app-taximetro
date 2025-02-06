@@ -1,0 +1,7 @@
+
+### **requirements.txt**
+
+De momento, dejaremos este archivo vacío. A medida que avancemos y necesitemos instalar bibliotecas adicionales, iremos actualizándolo.
+
+```plaintext
+# Aquí se listarán las dependencias necesarias para el proyecto.
