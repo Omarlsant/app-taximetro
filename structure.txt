@@ -1,0 +1,28 @@
+taximetro_digital/
+│
+├── README.md                   # Documentación del proyecto
+├── main.py                     # Archivo principal que ejecuta el programa
+├── requirements.txt            # Lista de dependencias del proyecto
+│
+├── src/                        # Código fuente del proyecto
+│   ├── __init__.py             # Indica que el directorio es un paquete Python
+│   ├── taximetro.py            # Implementación de la lógica del taxímetro
+│   ├── autenticacion.py        # Módulo para la autenticación
+│   ├── gui.py                  # Implementación de la interfaz gráfica (GUI)
+│   └── utils.py                # Funciones auxiliares y utilitarias
+│
+├── tests/                      # Pruebas unitarias y de integración
+│   ├── __init__.py             # Indica que el directorio es un paquete Python
+│   ├── test_taximetro.py       # Pruebas para la lógica del taxímetro
+│   └── test_autenticacion.py   # Pruebas para el sistema de autenticación
+│
+├── logs/                       # Archivos de logs
+│   └── taximetro.log           # Log principal del taxímetro
+│
+├── data/                       # Archivos de datos y configuración
+│   ├── historial_trayectos.txt # Registro histórico de trayectos
+│   └── config.json             # Archivo de configuración para las tarifas
+│
+└── docker/                     # Archivos relacionados con Docker
+    ├── Dockerfile              # Archivo Dockerfile para contenedizar la aplicación
+    └── docker-compose.yml      # Archivo para orquestar múltiples contenedores (si es necesario)
