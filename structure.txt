@@ -16,13 +16,15 @@ digital_taximeter/
 │
 ├── tests/                      # Pruebas unitarias y de integración
 │   ├── __init__.py             # Indica que el directorio es un paquete Python
+│   ├── test_cli.py             # Pruebas para la lógica del taxímetro
 │   ├── test_taximeter.py       # Pruebas para la lógica del taxímetro
+│   └── test_utils.py           # Pruebas para la lógica del taxímetro
 │
 ├── logs/                       # Archivos de logs
 │   └── taximeter.log           # Log principal del taxímetro
 │
 ├── data/                       # Archivos de datos y configuración
-│   ├── history.json           # Registro histórico de trayectos
+│   ├── history.json            # Registro histórico de trayectos
 │   └── config.json             # Archivo de configuración para las tarifas
 │
 └── docker/                     # Archivos relacionados con Docker
