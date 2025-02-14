@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "app_taximetro"
+version = "0.1.0"
+description = "Un taxímetro simple en Python"
+authors = [
+    {name = "Omar", email = "omarns21@gmail.com"},
+]
+dependencies = [
+    "rich>=13.0.0",
+    "mypy",
+    "pip-compile"
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {file = "LICENSE"} # Si tienes
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["src"]
