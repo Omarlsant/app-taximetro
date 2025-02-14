@@ -1,47 +1,74 @@
 import time
 import logging
-from src.utils import format_currency, get_elapsed_time
+from src.utils import load_config
 
 class Taximeter:
     def __init__(self):
-        self.state = "stopped"
-        self.trip_start_time = None
-        self.total_cost = 0.0
-        self.current_cost = 0.0
+        self.config = load_config()
+        self.is_running = False
+        self.start_time = None
+        self.last_update_time = None  # Tiempo del último cálculo
+        self.total_fare = 0.0
+        self.elapsed_seconds = 0  # Segundos *completos* transcurridos
+        self.logger = self.setup_logger()
 
-    def start_trip(self):
-        self.trip_start_time = time.time()
-        self.state = "moving"
-        logging.info("Trip started.")
+    def setup_logger(self):
+        logger = logging.getLogger("taximeter")
+        logger.setLevel(logging.DEBUG)
+        log_file_handler = logging.FileHandler("logs/taximeter.log")
+        log_file_handler.setLevel(logging.DEBUG)
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        log_file_handler.setFormatter(formatter)
+        logger.addHandler(log_file_handler)
+        return logger
 
-    def calculate_fare(self):
-        elapsed_time = get_elapsed_time(self.trip_start_time)
-        elapsed_seconds = int(elapsed_time)  # Calculate full seconds only
-        if self.state == "stopped":
-            self.current_cost = 0.02 * elapsed_seconds
-        elif self.state == "moving":
-            self.current_cost = 0.05 * elapsed_seconds
-        self.total_cost += self.current_cost
-        logging.debug(f"Fare calculated. Elapsed time: {elapsed_seconds} seconds, Current cost: {format_currency(self.current_cost)}, Total cost: {format_currency(self.total_cost)}")
-        return self.current_cost
-
-    def end_trip(self):
-        self.calculate_fare()
-        self.state = "stopped"
-        self.trip_start_time = None
-        logging.info(f"Trip ended. Total cost: {format_currency(self.total_cost)}")
-        return self.total_cost
-
-    def get_status(self):
-        if self.trip_start_time is not None:
-            elapsed_time = get_elapsed_time(self.trip_start_time)
-            elapsed_seconds = int(elapsed_time)  # Calculate full seconds only
-            self.calculate_fare()
-            status_message = (f"Current state: {self.state}\n"
-                              f"Elapsed time: {elapsed_seconds} seconds\n"
-                              f"Current cost: {format_currency(self.current_cost)}\n"
-                              f"Total cost so far: {format_currency(self.total_cost)}")
-            logging.debug(status_message)
-            return status_message
+    def start(self):
+        if not self.is_running:
+            self.is_running = True
+            self.start_time = time.time()
+            self.last_update_time = self.start_time  # Inicializa el tiempo de la última actualización
+            self.total_fare = 0.0
+            self.elapsed_seconds = 0
+            self.logger.info("Taxímetro iniciado.")
         else:
-            return "No trip in progress."
+            self.logger.warning("El taxímetro ya está en funcionamiento.")
+
+    def calculate_fare(self, is_stopped=False):
+        if self.is_running:
+            now = time.time()
+            elapsed_since_last_update = now - self.last_update_time
+            
+            # Actualiza solo si ha pasado al menos 1 segundo completo
+            if elapsed_since_last_update >= 1.0:
+                seconds_to_add = int(elapsed_since_last_update)  # Redondea hacia abajo
+                self.elapsed_seconds += seconds_to_add
+
+                if is_stopped:
+                    self.total_fare += seconds_to_add * self.config["stopped_rate"]
+                else:
+                    self.total_fare += seconds_to_add * self.config["moving_rate"]
+
+                self.last_update_time += seconds_to_add  # Actualiza el tiempo, *no* a 'now'
+
+            self.logger.debug(f"Tarifa: {self.total_fare:.2f}€, Tiempo: {self.elapsed_seconds}s, Parado: {is_stopped}")
+            return self.total_fare  # Devuelve la tarifa *actual*, no la incremental.
+        else:
+            self.logger.error("El taxímetro no está en funcionamiento.")
+            return 0.0
+
+    def stop(self):
+        if self.is_running:
+            self.is_running = False
+            self.logger.info(f"Taxímetro detenido. Tarifa total: {self.total_fare:.2f}€")
+            return self.total_fare
+        else:
+            self.logger.warning("El taxímetro no está en funcionamiento.")
+            return 0.0
+
+    def reset(self):
+        self.is_running = False
+        self.start_time = None
+        self.last_update_time = None
+        self.total_fare = 0.0
+        self.elapsed_seconds = 0
+        self.logger.info("Taxímetro reiniciado.")
