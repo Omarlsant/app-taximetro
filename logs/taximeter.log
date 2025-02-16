@@ -4156,3 +4156,191 @@
 2025-02-16 14:12:59,116 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
 2025-02-16 14:12:59,116 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
 2025-02-16 14:12:59,116 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:17,628 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:17,628 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:17,628 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:17,628 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:17,628 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:17,628 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:17,628 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:17,628 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:17,628 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:17,628 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:19,196 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:19,196 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:19,196 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:19,196 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:19,196 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:19,196 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:19,196 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:19,196 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:19,196 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:19,196 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:19,196 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:19,197 - taximeter - DEBUG - Tarifa: 0.00€, Tiempo: 0s, Parado: False
+2025-02-16 19:09:19,197 - taximeter - DEBUG - Tarifa: 0.00€, Tiempo: 0s, Parado: False
+2025-02-16 19:09:19,197 - taximeter - DEBUG - Tarifa: 0.00€, Tiempo: 0s, Parado: False
+2025-02-16 19:09:19,197 - taximeter - DEBUG - Tarifa: 0.00€, Tiempo: 0s, Parado: False
+2025-02-16 19:09:19,197 - taximeter - DEBUG - Tarifa: 0.00€, Tiempo: 0s, Parado: False
+2025-02-16 19:09:19,197 - taximeter - DEBUG - Tarifa: 0.00€, Tiempo: 0s, Parado: False
+2025-02-16 19:09:19,197 - taximeter - DEBUG - Tarifa: 0.00€, Tiempo: 0s, Parado: False
+2025-02-16 19:09:19,197 - taximeter - DEBUG - Tarifa: 0.00€, Tiempo: 0s, Parado: False
+2025-02-16 19:09:19,197 - taximeter - DEBUG - Tarifa: 0.00€, Tiempo: 0s, Parado: False
+2025-02-16 19:09:19,197 - taximeter - DEBUG - Tarifa: 0.00€, Tiempo: 0s, Parado: False
+2025-02-16 19:09:19,197 - taximeter - DEBUG - Tarifa: 0.00€, Tiempo: 0s, Parado: False
+2025-02-16 19:09:20,211 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: True
+2025-02-16 19:09:20,211 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: True
+2025-02-16 19:09:20,211 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: True
+2025-02-16 19:09:20,211 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: True
+2025-02-16 19:09:20,211 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: True
+2025-02-16 19:09:20,211 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: True
+2025-02-16 19:09:20,211 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: True
+2025-02-16 19:09:20,211 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: True
+2025-02-16 19:09:20,211 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: True
+2025-02-16 19:09:20,211 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: True
+2025-02-16 19:09:20,211 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: True
+2025-02-16 19:09:20,771 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:20,771 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:20,771 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:20,771 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:20,771 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:20,771 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:20,771 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:20,771 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:20,771 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:20,771 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:20,771 - taximeter - DEBUG - Tarifa: 0.02€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:20,771 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.02€
+2025-02-16 19:09:20,771 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.02€
+2025-02-16 19:09:20,771 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.02€
+2025-02-16 19:09:20,771 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.02€
+2025-02-16 19:09:20,771 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.02€
+2025-02-16 19:09:20,771 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.02€
+2025-02-16 19:09:20,771 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.02€
+2025-02-16 19:09:20,771 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.02€
+2025-02-16 19:09:20,771 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.02€
+2025-02-16 19:09:20,771 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.02€
+2025-02-16 19:09:20,771 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.02€
+2025-02-16 19:09:21,270 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:21,270 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:21,270 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:21,270 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:21,270 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:21,270 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:21,270 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:21,270 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:21,270 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:21,270 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:21,270 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:21,270 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,271 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:22,271 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:22,271 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:22,271 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:22,271 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:22,271 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:22,271 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:22,271 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:22,271 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:22,271 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:22,271 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:22,271 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:22,273 - taximeter - INFO - Taxímetro reiniciado.
+2025-02-16 19:09:22,274 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,274 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,274 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,274 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,274 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,274 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,274 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,274 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,274 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,274 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,274 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,274 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,274 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,274 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,274 - taximeter - WARNING - El taxímetro ya está en funcionamiento.
+2025-02-16 19:09:22,274 - taximeter - WARNING - El taxímetro ya está en funcionamiento.
+2025-02-16 19:09:22,274 - taximeter - WARNING - El taxímetro ya está en funcionamiento.
+2025-02-16 19:09:22,274 - taximeter - WARNING - El taxímetro ya está en funcionamiento.
+2025-02-16 19:09:22,274 - taximeter - WARNING - El taxímetro ya está en funcionamiento.
+2025-02-16 19:09:22,274 - taximeter - WARNING - El taxímetro ya está en funcionamiento.
+2025-02-16 19:09:22,274 - taximeter - WARNING - El taxímetro ya está en funcionamiento.
+2025-02-16 19:09:22,274 - taximeter - WARNING - El taxímetro ya está en funcionamiento.
+2025-02-16 19:09:22,274 - taximeter - WARNING - El taxímetro ya está en funcionamiento.
+2025-02-16 19:09:22,274 - taximeter - WARNING - El taxímetro ya está en funcionamiento.
+2025-02-16 19:09:22,274 - taximeter - WARNING - El taxímetro ya está en funcionamiento.
+2025-02-16 19:09:22,274 - taximeter - WARNING - El taxímetro ya está en funcionamiento.
+2025-02-16 19:09:22,274 - taximeter - WARNING - El taxímetro ya está en funcionamiento.
+2025-02-16 19:09:22,274 - taximeter - WARNING - El taxímetro ya está en funcionamiento.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:22,275 - taximeter - INFO - Taxímetro iniciado.
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - DEBUG - Tarifa: 0.05€, Tiempo: 1s, Parado: False
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
+2025-02-16 19:09:23,276 - taximeter - INFO - Taxímetro detenido. Tarifa total: 0.05€
