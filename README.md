@@ -1,6 +1,6 @@
 # Taxímetro Digital:  App-Taximetro
 
-[![CI](https://github.com/omarlsant/app-taximetro/workflows/workflow.yml/badge.svg)](https://github.com/omarlsant/app-taximetro/actions)
+[![CI](https://github.com/omarlsant/app-taximetro/workflows/badge.svg)](https://github.com/omarlsant/app-taximetro/actions)
 
 ## Descripción
 
