@@ -1,4 +1,4 @@
-digital_taximeter/
+app-taximetro/
 │
 ├── .gitignore                  # Archivo de git
 ├── main.py                     # Archivo principal que ejecuta el programa
@@ -6,6 +6,9 @@ digital_taximeter/
 ├── README.md                   # Documentación del proyecto
 ├── requirements.txt            # Lista de dependencias del proyecto
 ├── test_imports.py             # Archivo de comprobación de importaciones
+├── workflow.yml                # Archivo de configuración de github actions
+├── Dockerfile                  # Archivo Dockerfile para contenedizar la aplicación
+├── docker-compose.yml          # Archivo para orquestar múltiples contenedores
 │
 ├── src/                        # Código fuente del proyecto
 │   ├── __init__.py             # Indica que el directorio es un paquete Python
@@ -27,9 +30,17 @@ digital_taximeter/
 │   ├── history.json            # Registro histórico de trayectos
 │   └── config.json             # Archivo de configuración para las tarifas
 │
-└── docker/                     # Archivos relacionados con Docker
-│   ├── Dockerfile              # Archivo Dockerfile para contenedizar la aplicación
-│   └── docker-compose.yml      # Archivo para orquestar múltiples contenedores
+├── frontend/                   # Directorio para el código del front-end
+│   ├── .gitignore              # Archivo de git para el front-end
+│   ├── index.html              # Archivo HTML principal
+│   ├── vite.config.js          # Archivo de configuración de Vite
+│   ├── package.json            # Archivo de configuración de NPM
+│   ├── src/                    # Código fuente del front-end
+│   │   ├── main.jsx            # Archivo principal de React
+│   │   ├── App.jsx             # Componente principal de la aplicación
+│   │   ├── components/         # Directorio para los componentes de React
+│   │   ├── pages/              # Directorio para las páginas de la aplicación
+│   │   └── assets/             # Directorio para los archivos estáticos (CSS, imágenes, etc.)
+│   └── tests/                  # Pruebas del front-end
 │
-└── Github actions/             # Archivos relacionados con Github actions
-    └── workflow.yml            # Archivo de configuración de github actions
+└── backend/                    # Directorio para el código del back-end (opcional, si deseas separarlo)
