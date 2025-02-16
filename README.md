@@ -19,7 +19,7 @@ Este proyecto implementa un taxímetro digital completo con las siguientes carac
 *   **Integración Continua (CI):** Configurado con GitHub Actions (`workflow.yml`) para automatizar pruebas y validaciones.
 
 ## Estructura del Proyecto
-
+```
 app-taximetro/
 │
 ├── .gitignore # Archivos/carpetas ignorados por Git
@@ -66,6 +66,7 @@ app-taximetro/
 │ └── tests/
 │
 └── backend/ # Código del backend (opcional)
+```
 
 
 ## Instalación
