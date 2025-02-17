@@ -26,52 +26,52 @@ Una arquitectura bien organizada facilita la comprensión, el mantenimiento y la
 ```
 app-taximetro/
 │
-├── .gitignore # Archivos/carpetas ignorados por Git
-├── main.py # Punto de entrada principal de la aplicación
-├── pyproject.toml # Configuración del proyecto (dependencias, herramientas)
-├── README.md # Este archivo
-├── requirements.txt # Dependencias de Python
-├── test_imports.py # Verifica que las importaciones funcionen correctamente
-├── workflow.yml # Configuración de GitHub Actions (CI)
-├── Dockerfile # Configuración para crear una imagen Docker
-├── docker-compose.yml # Configuración para orquestar contenedores
+├── .github/workflows/app-config.yml    # Archivo de configuración de github actions
+├── main.py                             # Archivo principal que ejecuta el programa
+├── pyproject.toml                      # Archivo de configuración del proyecto
+├── README.md                           # Documentación del proyecto
+├── requirements.txt                    # Lista de dependencias del proyecto
+├── test_imports.py                     # Archivo de comprobación de importaciones
+├── Dockerfile                          # Archivo Dockerfile para contenedizar la aplicación
+├── compose.yaml                        # Archivo de configuración de Docker Compose.
 │
-├── src/ # Código fuente principal
-│ ├── init.py
-│ ├── cli.py # Interfaz de línea de comandos
-│ ├── taximeter.py # Lógica central del taxímetro
-│ ├── gui.py # Interfaz gráfica de usuario
-│ └── utils.py # Funciones de utilidad
+├── src/                                # Código fuente del proyecto
+│   ├── __init__.py                     # Indica que el directorio es un paquete Python
+│   ├── cli.py                          # Implementación de la interfaz de CLI
+│   ├── gui.py                          # Implementación de la interfaz gráfica (GUI)
+│   ├── taximeter.py                    # Implementación de la lógica del taxímetro
+│   └── utils.py                        # Funciones auxiliares y utilitarias
 │
-├── tests/ # Pruebas unitarias y de integración
-│ ├── init.py
-│ ├── test_cli.py # Pruebas para cli.py
-│ ├── test_taximeter.py # Pruebas para taximeter.py
-│ └── test_utils.py # Pruebas para utils.py
+├── tests/                              # Pruebas unitarias y de integración
+│   ├── __init__.py                     # Indica que el directorio es un paquete Python
+│   ├── test_cli.py                     # Pruebas para la lógica de la CLI 
+│   ├── test_gui.py                     # Pruebas para la lógica de la GUI
+│   ├── test_taximeter.py               # Pruebas para la lógica del taxímetro
+│   └── test_utils.py                   # Pruebas para la lógica de las funciones auxiliares del taximetro
 │
-├── logs/ # Archivos de registro
-│ └── taximeter.log
+├── logs/                               # Archivos de logs
+│   └── taximeter.log                   # Log principal del taxímetro
 │
-├── data/ # Datos y configuración
-│ ├── history.json # Historial de trayectos
-│ └── config.json # Configuración de tarifas
+├── data/                               # Archivos de datos y configuración
+│   ├── history.json                    # Registro histórico de trayectos
+│   └── config.json                     # Archivo de configuración para las tarifas
 │
-├── frontend/ # Código del frontend (React + Vite)
-│ ├── .gitignore
-│ ├── index.html
-│ ├── vite.config.js
-│ ├── package.json
-│ ├── src/
-│ │ ├── main.jsx
-│ │ ├── App.jsx
-│ │ ├── components/
-│ │ ├── pages/
-│ │ └── assets/
-│ └── tests/
-│
-└── backend/ # Código del backend (opcional)
-```
+└── client-app-taximetro/               # Directorio para el código del front-end
+    ├── eslint.config.js                # Archivo de configuración para ESLint
+    ├── index.html                      # Archivo HTML principal
+    ├── vite.config.js                  # Archivo de configuración de Vite
+    ├── package.json                    # Archivo de configuración de NPM
+    ├── package-lock.json               # se crea automáticamente para registrar las versiones exactas de cada dependencia
+    └── src/                            # Código fuente del front-end
+        ├── assets/                     # Archivo principal de React
+        ├── components/                 # Componente principal de la aplicación
+        ├── layout/                     # Directorio para los componentes de React
+        ├── pages/                      # Directorio para las páginas de la aplicación
+        ├── router                      # Lógica para la navegación entre las diferentes páginas (enrutamiento).
+        ├── index.css                   # Hoja de estilos CSS globales para la aplicación.
+        └── main.jsx                    # El punto de entrada principal de la aplicación React
 
+```
 
 ## 🚀 Instalación
 
