@@ -1,46 +1,46 @@
 app-taximetro/
 │
-├── .gitignore                  # Archivo de git
-├── main.py                     # Archivo principal que ejecuta el programa
-├── pyproject.toml              # Archivo de configuración del proyecto
-├── README.md                   # Documentación del proyecto
-├── requirements.txt            # Lista de dependencias del proyecto
-├── test_imports.py             # Archivo de comprobación de importaciones
-├── workflow.yml                # Archivo de configuración de github actions
-├── Dockerfile                  # Archivo Dockerfile para contenedizar la aplicación
-├── docker-compose.yml          # Archivo para orquestar múltiples contenedores
+├── .github/workflows/app-config.yml    # Archivo de configuración de github actions
+├── main.py                             # Archivo principal que ejecuta el programa
+├── pyproject.toml                      # Archivo de configuración del proyecto
+├── README.md                           # Documentación del proyecto
+├── requirements.txt                    # Lista de dependencias del proyecto
+├── test_imports.py                     # Archivo de comprobación de importaciones
+├── Dockerfile                          # Archivo Dockerfile para contenedizar la aplicación
+├── compose.yaml                        # Archivo de configuración de Docker Compose.
 │
-├── src/                        # Código fuente del proyecto
-│   ├── __init__.py             # Indica que el directorio es un paquete Python
-│   ├── cli.py                  # Implementación de la interfaz de CLI
-│   ├── taximeter.py            # Implementación de la lógica del taxímetro
-│   ├── gui.py                  # Implementación de la interfaz gráfica (GUI)
-│   └── utils.py                # Funciones auxiliares y utilitarias
+├── src/                                # Código fuente del proyecto
+│   ├── __init__.py                     # Indica que el directorio es un paquete Python
+│   ├── cli.py                          # Implementación de la interfaz de CLI
+│   ├── gui.py                          # Implementación de la interfaz gráfica (GUI)
+│   ├── taximeter.py                    # Implementación de la lógica del taxímetro
+│   └── utils.py                        # Funciones auxiliares y utilitarias
 │
-├── tests/                      # Pruebas unitarias y de integración
-│   ├── __init__.py             # Indica que el directorio es un paquete Python
-│   ├── test_cli.py             # Pruebas para la lógica del taxímetro
-│   ├── test_taximeter.py       # Pruebas para la lógica del taxímetro
-│   └── test_utils.py           # Pruebas para la lógica del taxímetro
+├── tests/                              # Pruebas unitarias y de integración
+│   ├── __init__.py                     # Indica que el directorio es un paquete Python
+│   ├── test_cli.py                     # Pruebas para la lógica de la CLI 
+│   ├── test_gui.py                     # Pruebas para la lógica de la GUI
+│   ├── test_taximeter.py               # Pruebas para la lógica del taxímetro
+│   └── test_utils.py                   # Pruebas para la lógica de las funciones auxiliares del taximetro
 │
-├── logs/                       # Archivos de logs
-│   └── taximeter.log           # Log principal del taxímetro
+├── logs/                               # Archivos de logs
+│   └── taximeter.log                   # Log principal del taxímetro
 │
-├── data/                       # Archivos de datos y configuración
-│   ├── history.json            # Registro histórico de trayectos
-│   └── config.json             # Archivo de configuración para las tarifas
+├── data/                               # Archivos de datos y configuración
+│   ├── history.json                    # Registro histórico de trayectos
+│   └── config.json                     # Archivo de configuración para las tarifas
 │
-├── frontend/                   # Directorio para el código del front-end
-│   ├── .gitignore              # Archivo de git para el front-end
-│   ├── index.html              # Archivo HTML principal
-│   ├── vite.config.js          # Archivo de configuración de Vite
-│   ├── package.json            # Archivo de configuración de NPM
-│   ├── src/                    # Código fuente del front-end
-│   │   ├── main.jsx            # Archivo principal de React
-│   │   ├── App.jsx             # Componente principal de la aplicación
-│   │   ├── components/         # Directorio para los componentes de React
-│   │   ├── pages/              # Directorio para las páginas de la aplicación
-│   │   └── assets/             # Directorio para los archivos estáticos (CSS, imágenes, etc.)
-│   └── tests/                  # Pruebas del front-end
-│
-└── backend/                    # Directorio para el código del back-end (opcional, si deseas separarlo)
+└── client-app-taximetro/               # Directorio para el código del front-end
+    ├── eslint.config.js                # Archivo de configuración para ESLint
+    ├── index.html                      # Archivo HTML principal
+    ├── vite.config.js                  # Archivo de configuración de Vite
+    ├── package.json                    # Archivo de configuración de NPM
+    ├── package-lock.json               # se crea automáticamente para registrar las versiones exactas de cada dependencia
+    └── src/                            # Código fuente del front-end
+        ├── assets/                     # Archivo principal de React
+        ├── components/                 # Componente principal de la aplicación
+        ├── layout/                     # Directorio para los componentes de React
+        ├── pages/                      # Directorio para las páginas de la aplicación
+        ├── router                      # Lógica para la navegación entre las diferentes páginas (enrutamiento).
+        ├── index.css                   # Hoja de estilos CSS globales para la aplicación.
+        └── main.jsx                    # El punto de entrada principal de la aplicación React
